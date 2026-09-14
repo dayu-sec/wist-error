@@ -2,8 +2,14 @@
 
 Shared structured error vocabulary for the `wist` server side.
 
-[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![crates.io](https://img.shields.io/crates/v/wist-error.svg)](https://crates.io/crates/wist-error)
+[![docs.rs](https://img.shields.io/docsrs/wist-error/latest.svg)](https://docs.rs/wist-error)
+[![Downloads](https://img.shields.io/crates/d/wist-error.svg)](https://crates.io/crates/wist-error)
 [![MSRV](https://img.shields.io/badge/rustc-1.85+-orange.svg)](#)
+[![CI](https://github.com/dayu-sec/wist-error/actions/workflows/ci.yml/badge.svg)](https://github.com/dayu-sec/wist-error/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/dayu-sec/wist-error/branch/main/graph/badge.svg)](https://codecov.io/gh/dayu-sec/wist-error)
+[![dependency status](https://deps.rs/repo/github/dayu-sec/wist-error/status.svg)](https://deps.rs/repo/github/dayu-sec/wist-error)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
 `wist-error` centralizes the cross-crate reason enums — built on [`orion-error`] — and the
 conversions between them, so the center-side crates share one error language instead of each
