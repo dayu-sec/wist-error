@@ -1,7 +1,7 @@
 //! Shared structured error vocabulary for the warp-insight server side.
 //!
 //! Centralizes the cross-crate reason enums (built on `orion-error`) and the
-//! conversions between them, so `wist-center` / `warp-gateway` / `wist-gateway`
+//! conversions between them, so `wist-center` / `wist-gateway`
 //! / `insight-control` / `wist-security` / `wist-reporting` share one error
 //! language instead of each hand-rolling a `StoreError` / `ConfigError` /
 //! `Box<dyn Error>`.
