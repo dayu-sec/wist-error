@@ -3,6 +3,15 @@ name = "wist-error"
 version = "0.1.1" #@gxl:set(version)
 edition = "2024"
 license = "Apache-2.0"
+rust-version = "1.85"
+authors = ["wist Dev Team"]
+description = "Shared structured error vocabulary for the wist server side"
+repository = "https://github.com/dayu-sec/wist-error"
+homepage = "https://github.com/dayu-sec/wist-error"
+documentation = "https://docs.rs/wist-error"
+readme = "README.md"
+keywords = ["wist", "error", "error-handling"]
+categories = ["development-tools", "rust-patterns"]
 
 [dependencies]
 orion-error = { version = "0.8", features = ["derive", "serde_json"] }
