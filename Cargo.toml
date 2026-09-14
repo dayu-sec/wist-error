@@ -1,0 +1,9 @@
+[package]
+name = "wist-error"
+version = "0.1.1"
+edition = "2024"
+license = "Apache-2.0"
+rust-version = "1.85"
+
+[dependencies]
+orion-error = { version = "0.8", features = ["derive", "serde_json"] }
