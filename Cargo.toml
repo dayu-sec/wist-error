@@ -1,6 +1,6 @@
 [package]
 name = "wist-error"
-version = "0.1.2" #@gxl:set(version)
+version = "0.2.0" #@gxl:set(version)
 edition = "2024"
 license = "Apache-2.0"
 authors = ["wist Dev Team"]
@@ -13,4 +13,4 @@ keywords = ["wist", "error", "error-handling"]
 categories = ["development-tools", "rust-patterns"]
 
 [dependencies]
-orion-error = { version = "0.8", features = ["derive", "serde_json"] }
+orion-error = { version = "0.9", features = ["derive", "serde_json"] }
